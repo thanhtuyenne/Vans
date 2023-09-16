@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Vans/static/css/main.fe6d32a2.css",
+    "main.js": "/Vans/static/js/main.050ef870.js",
+    "static/js/787.df2cef1b.chunk.js": "/Vans/static/js/787.df2cef1b.chunk.js",
+    "static/media/co4.jpg": "/Vans/static/media/co4.ebc09e183eec54b37100.jpg",
+    "static/media/mainImg.jpg": "/Vans/static/media/mainImg.69d7fa5495143b9c4ef4.jpg",
+    "static/media/co2.webp": "/Vans/static/media/co2.6ffdeb6037804f2d917d.webp",
+    "static/media/co3.webp": "/Vans/static/media/co3.1cd3c6a3ea96f1f7f70a.webp",
+    "static/media/co1.webp": "/Vans/static/media/co1.f8b9d21da0a62781ad8e.webp",
+    "static/media/Vans-logo.png": "/Vans/static/media/Vans-logo.a9b56c2bee1414a4dc0d.png",
+    "static/media/p5.webp": "/Vans/static/media/p5.fb33cc9b4cbf15ad37e6.webp",
+    "static/media/p4.webp": "/Vans/static/media/p4.f71e0f24795aee8aad50.webp",
+    "static/media/arr4.webp": "/Vans/static/media/arr4.1ba9f901b544fcb0af84.webp",
+    "static/media/p3.webp": "/Vans/static/media/p3.06aefc603d9b2dc39b04.webp",
+    "static/media/p2.webp": "/Vans/static/media/p2.a9f3232988202940259e.webp",
+    "static/media/arr3.webp": "/Vans/static/media/arr3.08777503c9f6fc9736ab.webp",
+    "static/media/p1.webp": "/Vans/static/media/p1.e35d7ee6177f5bcce975.webp",
+    "static/media/arr2.webp": "/Vans/static/media/arr2.bbae670a5d41691d454e.webp",
+    "static/media/arr1.webp": "/Vans/static/media/arr1.7a61e76af47b0e8d30b5.webp",
+    "index.html": "/Vans/index.html",
+    "main.fe6d32a2.css.map": "/Vans/static/css/main.fe6d32a2.css.map",
+    "main.050ef870.js.map": "/Vans/static/js/main.050ef870.js.map",
+    "787.df2cef1b.chunk.js.map": "/Vans/static/js/787.df2cef1b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe6d32a2.css",
+    "static/js/main.050ef870.js"
+  ]
+}
