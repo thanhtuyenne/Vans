@@ -1,0 +1,107 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid #f1f2f3;
+    padding-bottom: 1rem;
+}
+.pre-header {
+    height: 40%;
+    width: 100%;
+    
+    .pre-header-list {
+        padding: 14px 18px;
+        display: flex;
+        justify-content: right;
+        margin: 0;
+
+        .pre-header-item {
+            font-size: .8rem;
+            color: var(--dark-grey);
+            padding-left: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+            transition: .25s;
+    
+            &:hover {
+                color: var(--link-hover);
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.main-header {
+    padding: 0px 10px;
+    height: 70%;
+    width: 100%;
+    display: flex;
+
+    .vans-logo {
+        width: 125px;
+        height: 100%;
+        padding-right: 1rem;
+    }
+    .main-header-list {
+        display: flex;
+        padding: 0;
+        margin-bottom: .3rem;
+        align-items: end;
+
+        .main-header-item {
+            font-size: 1rem;
+            padding: 0 12px;
+            font-weight: 400;
+
+        }
+    }
+    .search-bar {
+        display: flex;
+        padding: 12px 20px;
+        margin: 1.3rem 1.5rem 0 2.5rem;
+        align-items: end;
+        position: relative;
+        border: 1px solid var(--text-grey);
+        height: 1rem;
+        justify-content: space-around;
+        width: 130px;
+        border-radius: 2rem;
+        transition: 0.25s;
+        align-items: center;
+
+        &:focus-within {
+            border-color: #000;
+        }
+   
+            .search-logo {
+                position: absolute;
+                left: 0.3rem;
+                border: none;
+                background-color: transparent;
+                font-size: 1.2rem;       
+                cursor: pointer;             
+            }
+            .search-input {
+                width: 100px;
+                outline: none;
+                font-size: 1rem;
+                border: none;
+            }
+            .camera-logo {
+                position: absolute;
+                right: 0.3rem;
+                border: none;
+                background-color: transparent;
+                font-size: 1.2rem;
+                cursor: pointer;
+            }
+    }
+    .cart-container {
+        border: none;
+        background-color: transparent;
+        font-size: 1.2rem;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+}

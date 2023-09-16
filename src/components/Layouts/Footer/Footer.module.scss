@@ -1,0 +1,38 @@
+.footer-container {
+    background-color: #1c1c1c;
+    color: #fff;
+    width: 100%;
+    margin-top: 2rem;
+   
+    .footer-info {
+        display: flex;
+        justify-content: center;
+        .footer-info-list {
+            .footer-info-item:first-child {
+                font-size: 2rem;
+                letter-spacing: 0.1rem;
+                margin-bottom: 1rem;
+            }
+            .footer-info-item {
+                font-size: 1rem;
+                margin: .5rem 0;
+            }
+            .contact-info-container {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                .contact-item {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 1rem 0;
+                    .contact-title {
+                        font-size: 1rem;
+                    }
+                    .contact-desc {
+                        font-size: .8rem;
+                    }
+                }
+            }
+        }
+    }    
+}

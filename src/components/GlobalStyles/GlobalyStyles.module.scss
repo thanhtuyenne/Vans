@@ -1,0 +1,33 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Nunito:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary: #000;
+    --title: #322b2b;
+    --grey: #91929a;
+    --dark-grey: #737680;
+    --text-grey: #b2b4b6;
+    --red: #c9192e;
+    --link-hover: #347298;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    margin: 0;
+}

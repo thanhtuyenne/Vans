@@ -1,0 +1,27 @@
+.wrapper {
+    background-color: var(--primary);
+    width: 100%;
+    height: 40px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+    color: #fff;
+    height: 100%;
+}
+.content-ad {
+    color: #fff;
+
+}
+.content-detailed {
+    margin-left: 8px;
+    text-decoration: underline;
+    color: #fff;
+
+    &:hover {
+        color: var(--red);
+    }
+}

@@ -1,0 +1,137 @@
+
+// POSTER
+.main-img {
+    height: 500px;
+    width: 1243px;
+}
+.poster {
+    width: 100%;
+    height: 100%;
+}
+
+.arrivals-container {
+    width: 1243px;
+    margin-bottom: 4rem;
+    .arrivals-title {
+        letter-spacing: .3rem;
+        text-align: center;
+    }
+    .arrivals-list {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.arrival-overlay {
+    width: 290px;
+    height: 290px;
+    position: relative;
+    overflow: hidden;
+    
+    .arrival-img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .title-overlay {
+        width: 290px;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        position: absolute;
+        top: 0;
+
+        .arrival-title {
+            width: 120px;
+            height: 40px;
+            border: 1px solid #000;
+            padding: 14px 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            font-size: 1.2rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: .1rem;
+        }
+    }
+}
+
+// COLLABORATIONS
+.collabs-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1243px;
+    grid-gap: 5rem 1rem;
+}
+.collabs-overlay {
+    .collabs-img {
+        width: 610px;
+        height: 510px;
+    }
+    .collabs-content {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        grid-row-gap: 3rem;
+    }
+    .collabs-title {
+        font-size: 2.5rem;
+        color: var(--title);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 70%;
+        letter-spacing: .1rem;
+        font-weight: 800;
+    }
+    .collabs-btn {
+        border: 1px solid #000;
+        background-color: #fff;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        padding: 14px 20px;
+        font-weight: 500;
+        width: 9.5rem;
+        letter-spacing: 0.1rem;
+        font-size: 1rem;
+    }
+}
+
+// PRODUCTS
+.product-container {
+    width: 1243px;
+    margin-top: 4rem;
+    .product-header {
+        display: grid;
+        grid-template-columns: .5fr 1fr;
+        align-items: center;
+        column-gap: 9rem;
+    }
+    .product-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .product-title-item {
+        font-size: 1.1rem;
+        letter-spacing: .1rem;
+        color: #91929a;
+        font-weight: 600;
+        cursor: pointer;
+
+        &:first-child {
+            border: 2px solid #000;
+            border-radius: 50%;
+            padding: 12px 8px;
+            color: #000;
+        }
+    }
+    .product-decor {
+        background-color: #000;
+        height: 1px;
+        width: 100%;
+    }
+}
